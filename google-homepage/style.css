@@ -1,5 +1,49 @@
-ul {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px;
+
+    @media (min-width: 600px){
+        padding: 20px;
+    }
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background: #3d3e40;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+#navbar {
+    display: grid;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+#footerlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
