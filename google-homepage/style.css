@@ -15,8 +15,8 @@ nav {
 
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    background: #3d3e40;
-    margin: 0px;
+    background: green;
+    margin: 0px auto;
     padding: 0px;
     min-height: 100vh;
 }
